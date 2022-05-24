@@ -32,7 +32,7 @@ int main(){
                 operations.pop();
             }
             else {
-                cout<<"ERROR";
+                cout<<"Error";
                 return 0;
             }
             if (element=="+")
@@ -44,7 +44,7 @@ int main(){
             else if (operation2!=0)
                 result = operation1 / operation2;
             else {
-                cout<<"ERROR";
+                cout<<"Error";
                 return 0;
             }
             if (!inputs.empty() && (element=="+" || element=="-"))
@@ -68,6 +68,6 @@ int main(){
         cout<<"="<<operations.top();
     }
     else
-        cout<<"ERROR";
+        cout<<"Error";
     return 0;
 }
